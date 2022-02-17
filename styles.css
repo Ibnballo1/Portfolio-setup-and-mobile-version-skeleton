@@ -26,6 +26,10 @@ body {
     width: 76px;
     height: 20px;
   }
+
+  .icon-menu ul {
+    display: none;
+  }
   
   .vectors {
     color: #6070ff;
@@ -762,11 +766,85 @@ body {
     border: 2px solid red;
   }
   .work-card-1 {
+    display: flex;
     /*border: 1px solid #dfe1e6;*/
     border: 2px solid green;
     border-radius: 24px;
     width: 1156px;
     height: 496px;
     margin-bottom: 142px;
+    padding: 24px;
+    background-color: #fff;
+  }
+
+  .snapshot-portfolio {
+    background-image: url('/Images/card1.svg');
+    width: 544px;
+    height: 448px;
+    border-radius: 8px;
+    margin-right: 24px;
+
+  }
+
+  .project-title {
+    border: 2px solid yellowgreen;
+    width: 544px;
+    height: 448px;
+    padding: 24px;
+  }
+
+  .project-title h1 {
+    border: 2px solid red;
+    width: 496px;
+    height: 46px;
+    color: #091e42;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .frame {
+    display: flex;
+    border: 2px solid brown;
+    width: 297px;
+    height: 40px;
+    padding: 8px 0;
+  }
+
+  .texts {
+    margin-right: 12px;
+  }
+
+  .text-1 {
+    border: 2px solid red;
+    width: 75px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .count {
+    border-radius: 50%;
+    background-color: #c1c7d0;
+    width: 8px;
+    height: 8px;
+    margin: 16px 12px 16px 0;
+  }
+
+  .text-2 {
+    border: 2px solid indigo;
+    color: #6b778c;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 120px;
+    height: 24px;
   }
 }
