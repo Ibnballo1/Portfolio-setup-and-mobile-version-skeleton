@@ -765,10 +765,10 @@ body {
     padding: 142px;
     border: 2px solid red;
   }
-  .work-card-1 {
+  .work-card-1,
+  .work-card-2 {
     display: flex;
-    /*border: 1px solid #dfe1e6;*/
-    border: 2px solid green;
+    border: 1px solid #dfe1e6;
     border-radius: 24px;
     width: 1156px;
     height: 496px;
@@ -787,14 +787,12 @@ body {
   }
 
   .project-title {
-    border: 2px solid yellowgreen;
     width: 544px;
     height: 448px;
     padding: 24px;
   }
 
   .project-title h1 {
-    border: 2px solid red;
     width: 496px;
     height: 46px;
     color: #091e42;
@@ -808,10 +806,9 @@ body {
   .frame {
     display: flex;
     align-items: center;
-    border: 2px solid brown;
     width: 297px;
     height: 40px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     padding: 8px 0;
   }
 
@@ -864,7 +861,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #344563;margin-bottom: 24px;
-    border: 2px solid yellowgreen;
   }
 
   .tags {
@@ -872,10 +868,9 @@ body {
     list-style: none;
     align-items: center;
     padding: 4px 12px;
-    border: 2px solid salmon;
     width: 203px;
     height: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .tags-link {
@@ -886,7 +881,6 @@ body {
   .html-tag,
   .css-tag,
   .js-tag {
-    border: 2px solid black;
     width: 29px;
     height: 16px;
     font-family: 'Poppins', sans-serif;
@@ -899,10 +893,20 @@ body {
   }
 
   .btn {
-    border: 2px solid violet;
+    border: 1px solid #6070ff;
     width: 124px;
     height: 48px;
     border-radius: 8px;
     padding: 12px;
+    background-color: #fff;
+  }
+
+  .btn span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
   }
 }
