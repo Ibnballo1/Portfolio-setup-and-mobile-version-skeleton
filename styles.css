@@ -200,6 +200,10 @@ body {
     height: 32px;
     margin-bottom: 12px;
   }
+
+  .frame2 {
+    display: none;
+  }
   
   .frame p.text-1 {
     color: #344563;
@@ -779,6 +783,15 @@ body {
 
   .snapshot-portfolio {
     background-image: url('/Images/card1.svg');
+  }
+
+  .snapshot-portfolio-2 {
+    order: 2;
+    background-image: url('/Images/card2.svg');
+  }
+
+  .snapshot-portfolio,
+  .snapshot-portfolio-2 {
     width: 544px;
     height: 448px;
     border-radius: 8px;
@@ -786,13 +799,15 @@ body {
 
   }
 
-  .project-title {
+  .project-title,
+  .project-title-2 {
     width: 544px;
     height: 448px;
     padding: 24px;
   }
 
-  .project-title h1 {
+  .project-title h1,
+  .project-title-2 h1 {
     width: 496px;
     height: 46px;
     color: #091e42;
@@ -803,7 +818,8 @@ body {
     line-height: 52px;
   }
 
-  .frame {
+  .frame,
+  .frame2 {
     display: flex;
     align-items: center;
     width: 297px;
@@ -812,12 +828,24 @@ body {
     padding: 8px 0;
   }
 
+  .project-title-2 .frame {
+    display: none;
+  }
+
   .texts {
     margin-right: 12px;
   }
 
   .text-1 {
     width: 75px;
+  }
+
+  .text-4 {
+    width: 96px;
+  }
+
+  .text-1,
+  .text-4 {
     height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
