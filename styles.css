@@ -703,4 +703,11 @@ body {
     margin: 48px 8px 76.54px 34.6px;
     border: 2px solid greenyellow;
   }
+
+  .primary-text {
+    width: 920px;
+    height: 122px;
+    margin: 241px 252px 12px 225.4px;
+    border: 2px solid black;
+  }
 }
