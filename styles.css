@@ -641,3 +641,19 @@ button:focus {
   height: 5px;
   margin: 21px 121px 8px 120px;
 }
+
+@media only screen and (min-width: 900px) {
+  body {
+    background-color: #e5e5e5;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    background-color: #fff;
+    margin: 1px 0 47px 0;
+    width: 1440px;
+    height: 72px;
+  }
+}
