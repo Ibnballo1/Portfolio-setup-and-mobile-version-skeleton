@@ -650,8 +650,6 @@ body {
     padding: 25px 155px;
     border: 2px solid red;
     background-color: #fff;
-    margin: 1px 0 47px 0;
-    height: 72px;
   }
 
   .mylogo {
@@ -665,14 +663,12 @@ body {
     margin-right: 808px;
     width: 76px;
     height: 20px;
-    border: 2px solid green;
   }
 
   .icon-menu ul {
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    border: 2px solid black;
     list-style-type: none;
     width: 259px;
     height: 40px;
@@ -686,5 +682,9 @@ body {
 
   .vectors {
     display: none;
+  }
+
+  .main-section1 {
+    border: 2px solid black;
   }
 }
