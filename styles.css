@@ -645,6 +645,10 @@ body {
 
 
 @media only screen and (min-width: 992px) {
+  body {
+    width: 1440px;
+  }
+
   header {
     display: flex;
     padding: 25px 155px;
@@ -685,6 +689,18 @@ body {
   }
 
   .main-section1 {
+    height: 846px;
+    background-color: #fff;
+    border-bottom-left-radius: 75px;
     border: 2px solid black;
+  }
+
+  .bgimg {
+    position: absolute;
+    background-image: url('/Images/Header-bg.svg');
+    width: 1397.4px;
+    height: 721.46px;
+    margin: 48px 8px 76.54px 34.6px;
+    border: 2px solid greenyellow;
   }
 }
