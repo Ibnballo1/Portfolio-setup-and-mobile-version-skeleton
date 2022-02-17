@@ -651,7 +651,7 @@ body {
 
   header {
     display: flex;
-    padding: 25px 155px;
+    padding: 25px 100px;
     background-color: #fff;
   }
 
@@ -666,6 +666,7 @@ body {
     margin-right: 808px;
     width: 76px;
     height: 20px;
+    border: 2px solid red;
   }
 
   .icon-menu ul {
