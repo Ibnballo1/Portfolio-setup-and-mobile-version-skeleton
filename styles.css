@@ -652,7 +652,6 @@ body {
   header {
     display: flex;
     padding: 25px 155px;
-    border: 2px solid red;
     background-color: #fff;
   }
 
@@ -692,7 +691,6 @@ body {
     height: 846px;
     background-color: #fff;
     border-bottom-left-radius: 75px;
-    border: 2px solid black;
   }
 
   .bgimg {
@@ -701,13 +699,56 @@ body {
     width: 1397.4px;
     height: 721.46px;
     margin: 48px 8px 76.54px 34.6px;
-    border: 2px solid greenyellow;
   }
 
   .primary-text {
     width: 920px;
     height: 122px;
     margin: 241px 252px 12px 225.4px;
-    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+  }
+
+  .para-text {
+    width: 920px;
+    height: 96px;
+    margin: 0 252px 12px 225.4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  .let-us-connect {
+    width: 120px;
+    height: 24px;
+    margin: 0 1055px 14px 225.4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .social-media-icons {
+    width: 170.17px;
+    height: 20px;
+    margin: 0 1001px 178.46px 225.4px;
+    list-style: none;
+    display: flex;
+  }
+
+  li .fa,
+  li .fab {
+    margin-right: 20px;
+    color: #505f79;
   }
 }
