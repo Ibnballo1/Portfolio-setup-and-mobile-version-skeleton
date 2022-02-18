@@ -203,7 +203,8 @@ body {
 
   .frame2,
   .dv-pry-text,
-  .frame3 {
+  .frame3,
+  .frame4 {
     display: none;
   }
   
@@ -802,9 +803,15 @@ body {
     background-image: url('/Images/card3.svg');
   }
 
+  .snapshot-portfolio-4 {
+    order: 2;
+    background-image: url('/Images/card4.svg');
+  }
+
   .snapshot-portfolio,
   .snapshot-portfolio-2,
-  .snapshot-portfolio-3 {
+  .snapshot-portfolio-3,
+  .snapshot-portfolio-4 {
     width: 544px;
     height: 448px;
     border-radius: 8px;
@@ -814,7 +821,8 @@ body {
 
   .project-title,
   .project-title-2,
-  .project-title-3 {
+  .project-title-3,
+  .project-title-4 {
     width: 544px;
     height: 448px;
     padding: 24px;
@@ -822,7 +830,8 @@ body {
 
   .project-title h1,
   .project-title-2 h1,
-  .project-title-3 h1 {
+  .project-title-3 h1,
+  .project-title-4 h1 {
     width: 496px;
     height: 46px;
     color: #091e42;
@@ -841,9 +850,14 @@ body {
     width: 320px;
   }
 
+  .frame4 {
+    width: 285px;
+  }
+
   .frame,
   .frame2,
-  .frame3 {
+  .frame3,
+  .frame4 {
     display: flex;
     align-items: center;
     height: 40px;
@@ -852,7 +866,8 @@ body {
   }
 
   .project-title-2 .frame,
-  .project-title-3 .frame {
+  .project-title-3 .frame,
+  .project-title-4 .frame {
     display: none;
   }
 
@@ -878,6 +893,10 @@ body {
 
   .frame3 .text-5 {
     width: 130px;
+  }
+
+  .frame4 .text-4 {
+    width: 43px;
   }
 
   .text-1,
@@ -928,6 +947,10 @@ body {
     margin: 24px 0;
   }
 
+  .project-title-4 .dv-pry-text {
+    margin-bottom: 0;
+  }
+
   .dv-pry-text {
     width: 496px;
     height: 70px;
@@ -945,7 +968,8 @@ body {
   }
 
   .project-title-2 .dv-tags,
-  .project-title-3 .dv-tags {
+  .project-title-3 .dv-tags,
+  .project-title-4 .dv-tags {
     width: 365px;
   }
 
