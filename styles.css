@@ -777,7 +777,8 @@ body {
   }
   .work-card-1,
   .work-card-2,
-  .work-card-3 {
+  .work-card-3,
+  .work-card-4 {
     display: flex;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
@@ -922,6 +923,11 @@ body {
     display: none;
   }
 
+  .project-title .dv-pry-text {
+    height: 50px;
+    margin: 24px 0;
+  }
+
   .dv-pry-text {
     width: 496px;
     height: 70px;
@@ -930,40 +936,57 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #344563;margin-bottom: 24px;
+    color: #344563;
+    margin-bottom: 24px;
+  }
+
+  .project-title .dv-tags {
+    width: 203px;
+  }
+
+  .project-title-2 .dv-tags,
+  .project-title-3 .dv-tags {
+    width: 365px;
   }
 
   .dv-tags {
     display: flex;
     list-style: none;
     align-items: center;
-    padding: 4px 12px;
     width: 316px;
     height: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .tags-link {
     text-decoration: none;
     margin-right: 20px;
-  }
-
-  .html-tag,
-  .ruby-tag,
-  .css-tag,
-  .js-tag {
-    width: 29px;
+    color: #6070ff;
     height: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
+    padding: 4px 12px;
     line-height: 16px;
-    color: #6070ff;
+    background-color: #ebebff;
+    border-radius: 8px;
+  }
+
+  .html-tag {
+    width: 29px;
   }
 
   .ruby-tag {
     width: 81px;
+  }
+
+  .css-tag {
+    width: 21px;
+  }
+
+  .js-tag {
+    width: 65px;
   }
 
   .btn {
@@ -975,6 +998,10 @@ body {
     background-color: #fff;
   }
 
+  .project-title-3 .btn {
+    background-color: #4053fc;
+  }
+
   .btn span {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -982,5 +1009,9 @@ body {
     font-size: 17px;
     line-height: 24px;
     color: #396df2;
+  }
+
+  .project-title-3 .btn span {
+    color: white;
   }
 }
