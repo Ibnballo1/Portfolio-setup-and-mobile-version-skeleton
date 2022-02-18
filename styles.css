@@ -385,6 +385,10 @@ body {
     width: 327px;
     height: 144px;
   }
+
+  .dv-para-text-2 {
+    display: none;
+  }
   
   .let-us-connect-2 {
     font-family: 'Poppins', sans-serif;
@@ -1037,5 +1041,124 @@ body {
 
   .project-title-3 .btn span {
     color: white;
+  }
+
+  /* About me section */
+  .about-me-section {
+    display: flex;
+    border: 2px solid greenyellow;
+    height: 924px;
+    background-color: #fff;
+    border-top-right-radius: 75px;
+    padding: 124px 124px 0 124px;
+  }
+
+  .top {
+    border: 2px solid pink;
+    width: 450px;
+    height: 392px;
+  }
+
+  .primary-text-2 {
+    border: 2px solid brown;
+    color: #091e42;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 52px;
+    margin: 12px 0;
+    width: 317px;
+    height: 114px;
+  }
+
+  .para-text-2 {
+    display: none;
+  }
+
+  .dv-para-text-2 {
+    border: 2px solid lime;
+    height: 102px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+
+  .dv-let-us-connect {
+    color: #7f8cff;
+    border: 2px solid indigo;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 120px;
+    height: 24px;
+  }
+
+  .dv-social-media-icons-2 {
+    width: 200px;
+    height: 40px;
+    margin: 0 151px 24px 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .lists-fa {
+    width: 40px;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0;
+  }
+  
+  .lists-fa .fa-github,
+  .lists-fa .fa-linkedin,
+  .lists-fa .fa-angellist,
+  .lists-fa .fa-medium {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    color: #505f79;
+  }
+
+  .dv-action-btn-2 {
+    width: 162px;
+    height: 48px;
+  }
+
+  .dv-btn-2 {
+    border: 1px solid #6070ff;
+    background-color: #fff;
+    color: #396df2;
+    width: 162px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px;
+  }
+  
+  .btn:hover,
+  .btn-2:hover {
+    background-color: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: white;
+  }
+  
+  .btn:focus,
+  .btn-2:focus {
+    background-color: #2230d2;
+    color: #fff;
+  }
+  
+  .btn-2 span {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    line-height: 24px;
   }
 }
