@@ -202,7 +202,8 @@ body {
   }
 
   .frame2,
-  .dv-pry-text {
+  .dv-pry-text,
+  .frame3 {
     display: none;
   }
   
@@ -775,7 +776,8 @@ body {
     border: 2px solid red;
   }
   .work-card-1,
-  .work-card-2 {
+  .work-card-2,
+  .work-card-3 {
     display: flex;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
@@ -795,8 +797,13 @@ body {
     background-image: url('/Images/card2.svg');
   }
 
+  .snapshot-portfolio-3 {
+    background-image: url('/Images/card3.svg');
+  }
+
   .snapshot-portfolio,
-  .snapshot-portfolio-2 {
+  .snapshot-portfolio-2,
+  .snapshot-portfolio-3 {
     width: 544px;
     height: 448px;
     border-radius: 8px;
@@ -805,14 +812,16 @@ body {
   }
 
   .project-title,
-  .project-title-2 {
+  .project-title-2,
+  .project-title-3 {
     width: 544px;
     height: 448px;
     padding: 24px;
   }
 
   .project-title h1,
-  .project-title-2 h1 {
+  .project-title-2 h1,
+  .project-title-3 h1 {
     width: 496px;
     height: 46px;
     color: #091e42;
@@ -832,7 +841,8 @@ body {
   }
 
   .frame,
-  .frame2 {
+  .frame2,
+  .frame3 {
     display: flex;
     align-items: center;
     height: 40px;
@@ -840,7 +850,8 @@ body {
     padding: 8px 0;
   }
 
-  .project-title-2 .frame {
+  .project-title-2 .frame,
+  .project-title-3 .frame {
     display: none;
   }
 
@@ -862,6 +873,10 @@ body {
 
   .text-5 {
     width: 190px;
+  }
+
+  .frame3 .text-5 {
+    width: 130px;
   }
 
   .text-1,
