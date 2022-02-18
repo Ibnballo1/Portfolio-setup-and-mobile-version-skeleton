@@ -548,6 +548,10 @@ body {
     border-top-left-radius: 75px;
   }
   
+  .dv-form {
+    display: none;
+  }
+
   .footer-bgimg {
     position: absolute;
     margin: 21px -43px 48.83px 153px;
@@ -682,7 +686,7 @@ body {
     color: #6070ff;
     line-height: 20px;
     letter-spacing: 0;
-    margin-right: 808px;
+    margin-right: 870px;
     width: 76px;
     height: 20px;
   }
@@ -778,7 +782,6 @@ body {
     align-items: center;
     height: 2694px;
     padding: 142px;
-    border: 2px solid red;
   }
   .work-card-1,
   .work-card-2,
@@ -1046,7 +1049,6 @@ body {
   /* About me section */
   .about-me-section {
     display: flex;
-    border: 2px solid greenyellow;
     height: 924px;
     background-color: #fff;
     border-top-right-radius: 75px;
@@ -1054,13 +1056,11 @@ body {
   }
 
   .top {
-    border: 2px solid pink;
     width: 450px;
-    height: 392px;
+    height: 400px;
   }
 
   .primary-text-2 {
-    border: 2px solid brown;
     color: #091e42;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
@@ -1076,7 +1076,6 @@ body {
   }
 
   .dv-para-text-2 {
-    border: 2px solid lime;
     height: 102px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1088,7 +1087,6 @@ body {
 
   .dv-let-us-connect {
     color: #7f8cff;
-    border: 2px solid indigo;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1160,5 +1158,192 @@ body {
     font-size: 17px;
     text-align: center;
     line-height: 24px;
+  }
+
+  .dv-skills {
+    margin-left: 25px;
+    width: 684px;
+    height: 360px;
+    padding: 24px;
+  }
+
+  .dv-skills ul {
+    list-style: none;
+  }
+
+  .lang-frame .dv-langs {
+    margin-bottom: 23px;
+  }
+
+  .dv-langs {
+    display: inline-block;
+    margin-right: 26px;
+    width: 582px;
+    height: 24px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .dv-down-arrow {
+    width: 12px;
+    height: 6px;
+    border: 2px solid #ACB7C3;
+  }
+
+  .dv-hr {
+    visibility: hidden;
+  }
+
+  .dv-lang-list {
+    display: flex;
+    padding: 12px;
+    width: 450px;
+    height: 144px;
+  }
+
+  .dv-lang-lists {
+    width: 122px;
+    height: 120px;
+    background: #F7F7F9;
+    border-radius: 8px;
+    margin: 0 12px;
+    padding: 12px;
+  }
+
+  .dv-lang-lists img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+  }
+
+  .dv-lang-name {
+    width: 98px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+  }
+
+  .dv-list-frame2 .dv-langs {
+    padding: 12px;
+  }
+
+  .dv-hr-line {
+    height: 1px;
+    background: #dfe1e6;
+  }
+
+  .dv-footer {
+    background-color: #fff;
+    margin-top: -256px;
+  }
+
+  .dv-form {
+    background-color: #6070ff;
+    height: 846px;
+    border-top-left-radius: 80px;
+    padding: 79.09px 74px 48.21px 75.34px;
+  }
+  
+  .form-container {
+    display: none;
+  }
+
+  .dv-foot-bgimg {
+    height: 718.7px;
+    background-image: url('/Images/dv-contact-form.svg');
+    padding: 62.91px 245px 78.79px 244.66px;
+  }
+
+  .footer-details {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+  }
+
+  .dv-formheader {
+    color: #fff;
+    margin: 12px 0;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .dv-foot-text {
+    width: 569px;
+    height: 102px;
+    align-self: center;
+    color: #ebebff;
+    margin: 12px 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  #dv-form-ctrl {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 447px;
+    height: 395px;
+    margin: 12px 0;
+  }
+
+  #dv-form-ctrl input {
+    height: 48px;
+    margin-bottom: 27px;
+    border: 1px solid #CFD8DC;
+    border-radius: 2px;
+    padding: 15px 38px 15px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #172b4d;
+  }
+
+  #dv-form-ctrl input,
+  #dv-form-ctrl textarea,
+  #dv-form-ctrl button {
+    border: none;
+  }
+
+  #dv-form-ctrl textarea {
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    height: 170px;
+    padding: 15px 38px 15px 16px;
+    margin-bottom: 27px;
+  }
+
+  #dv-form-ctrl button {
+    width: 140px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #6070ff;
   }
 }

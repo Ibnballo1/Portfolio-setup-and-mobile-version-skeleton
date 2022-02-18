@@ -232,43 +232,43 @@
                     </div>
                 </div>
 
-                <div class="skills">
+                <div class="skills dv-skills">
                     <div class="lang-frame">
                         <ul>
-                            <li><a href="#" class="langs">Langguages</a><i class='fas fa-angle-down down-arrow'></i></li>
+                            <li class="dv-skills-list"><a href="#" class="langs dv-langs">Langguages</a><i class='fas fa-angle-down down-arrow dv-down-arrow'></i></li>
                         </ul>
-                        <hr>
-                        <div class="lang-list">
-                            <div class="lang-lists">
+                        <hr class="dv-hr">
+                        <div class="lang-list dv-lang-list">
+                            <div class="lang-lists dv-lang-lists">
                                 <img src="Images/jscript.png" alt="javascript icon">
-                                <p class="lang-name">JavaSript</p>
+                                <p class="lang-name dv-lang-name">JavaSript</p>
                             </div>
-                            <div class="lang-lists">
+                            <div class="lang-lists dv-lang-lists">
                                 <img src="Images/html5.png" alt="html5 icon">
-                                <p class="lang-name">HTML</p>
+                                <p class="lang-name dv-lang-name">HTML</p>
                             </div>
-                            <div class="lang-lists">
+                            <div class="lang-lists dv-lang-lists">
                                 <img src="Images/css3.png" alt="css3 icon">
-                                <p class="lang-name">CSS</p>
+                                <p class="lang-name dv-lang-name">CSS</p>
                             </div>
                         </div>
                     </div>
                     <div class="lang-frame-2">
-                        <ul>
-                            <li><a href="#" class="langs">Frameworks</a><i class='fas fa-angle-right down-arrow'></i></li>
+                        <ul class="dv-list-frame2">
+                            <li><a href="#" class="langs dv-langs">Frameworks</a><i class='fas fa-angle-right down-arrow'></i></li>
                         </ul>
-                        <hr class="hr-line">
+                        <hr class="hr-line dv-hr-line">
                     </div>
                     <div class="lang-frame-3">
-                        <ul>
-                            <li><a href="#" class="langs">Skills</a><i class='fas fa-angle-right down-arrow'></i></li>
+                        <ul class="dv-list-frame2">
+                            <li><a href="#" class="langs dv-langs">Skills</a><i class='fas fa-angle-right down-arrow'></i></li>
                         </ul>
-                        <hr class="hr-line">
+                        <hr class="hr-line dv-hr-line">
                     </div>
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="dv-footer">
             <div class="form-container">
                 <div class="footer-bgimg"></div>
                     <h1 class="formheader">Contact me</h1>
@@ -286,6 +286,25 @@
                     <div class="shapes">
                         <img src="/Images/shape.svg" alt="Shapes">
                     </div>
+            </div>
+
+            <div class="dv-form">
+                <div class="footer-bgimg dv-foot-bgimg">
+                    <div class="footer-details">
+                        <h1 class="dv-formheader">Contact me</h1>
+                        <p class="dv-foot-text">
+                            If you have an application you are interested in developing,
+                            a feature that you need built or a project that needs coding. I’d love to help with it
+                        </p>
+                        
+                        <form id="dv-form-ctrl" action="https://formspree.io/f/xrgjqpwb" method="post">
+                            <input type="text" name="user_name" value="Alexandra Loremipsum" maxlength="30" placeholder="Your name" required>
+                            <input type="email" name="mail" value="alexandra@gmail.com" placeholder="Your email" required>
+                            <textarea maxlength="500" placeholder="write your message here" required></textarea>
+                            <button type="submit">Get In Touch</button>
+                        </form>
+                    </div>
+                </div>
             </div>
             
         </footer>
