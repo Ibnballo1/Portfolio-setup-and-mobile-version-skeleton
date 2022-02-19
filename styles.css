@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     background-color: #fff;
   }
-  
+
   .mylogo {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -30,7 +30,7 @@ body {
   .icon-menu ul {
     display: none;
   }
-  
+
   .vectors {
     color: #6070ff;
     width: 18px;
@@ -38,7 +38,7 @@ body {
     align-self: flex-end;
     margin: 62px 35px 36px 35px;
   }
-  
+
   .main-section1 {
     background-image: url("/Images/header-shapes-mobile.svg");
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body {
     height: 740px;
     margin-bottom: 30px;
   }
-  
+
   .primary-text {
     font-family: 'Poppins', sans-serif;
     margin: 97px 24px 12px 24px;
@@ -63,7 +63,7 @@ body {
     width: 327px;
     height: 150px;
   }
-  
+
   .para-text {
     margin: 0 24px 12px 24px;
     font-family: 'Poppins', sans-serif;
@@ -75,7 +75,7 @@ body {
     width: 327px;
     height: 146px;
   }
-  
+
   .let-us-connect {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -85,7 +85,7 @@ body {
     width: 125px;
     height: 24px;
   }
-  
+
   .social-media-icons {
     width: 170.17px;
     height: 20px;
@@ -93,7 +93,7 @@ body {
     display: flex;
     list-style-type: none;
   }
-  
+
   .fa,
   .fab {
     width: 19.99px;
@@ -101,24 +101,24 @@ body {
     font-size: 24px;
     color: #505f79;
   }
-  
+
   .fa-linkedin,
   .fa-angellist {
     margin-left: 19.01px;
   }
-  
+
   .fa-medium,
   .fa-github {
     margin-left: 20px;
   }
-  
+
   .work-section {
     background-color: #e5e5e5;
     display: grid;
     grid-column-gap: 88px;
     margin-bottom: 114px;
   }
-  
+
   .work-card-1,
   .work-card-2,
   .work-card-3,
@@ -133,23 +133,23 @@ body {
     width: 327px;
     height: 552px;
   }
-  
+
   .snapshot-portfolio {
     background-image: url('Images/Snapshoot-Portfolio.png');
   }
-  
+
   .snapshot-portfolio-2 {
     background-image: url('Images/Snapshoot-Portfolio-2.png');
   }
-  
+
   .snapshot-portfolio-3 {
     background-image: url('Images/Snapshoot-Portfolio-3.png');
   }
-  
+
   .snapshot-portfolio-4 {
     background-image: url('Images/Snapshoot-Portfolio-4.png');
   }
-  
+
   .snapshot-portfolio,
   .snapshot-portfolio-2,
   .snapshot-portfolio-3,
@@ -160,19 +160,19 @@ body {
     margin-bottom: 12px;
     border-radius: 8px;
   }
-  
+
   .project-title h1,
   .project-title-3 h1 {
     font-weight: bold;
     height: 36px;
   }
-  
+
   .project-title-2,
   .project-title-4 {
     width: 295px;
     height: 332px;
   }
-  
+
   .project-title-2 h1,
   .project-title-4 h1 {
     font-family: 'Poppins', sans-serif;
@@ -182,7 +182,7 @@ body {
     font-size: 32px;
     padding-right: 50px;
   }
-  
+
   .project-title h1,
   .project-title-2,
   .project-title-3 h1,
@@ -192,7 +192,7 @@ body {
     height: 36px;
     margin-bottom: 20px;
   }
-  
+
   .frame {
     display: flex;
     justify-content: space-evenly;
@@ -207,25 +207,25 @@ body {
   .frame4 {
     display: none;
   }
-  
+
   .frame p.text-1 {
     color: #344563;
     width: 55px;
   }
-  
+
   .frame p.text-2 {
     font-size: 13px;
     margin-left: 12px;
     width: 95px;
     color: #7a869a;
   }
-  
+
   .frame p.text-3 {
     padding-left: 12px;
     width: 29px;
     color: #7a869a;
   }
-  
+
   .frame p.texts {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -237,7 +237,7 @@ body {
     padding-bottom: 8px;
     line-height: 16px;
   }
-  
+
   .frame p.count {
     margin: 12px 0 12px 12px;
     border-radius: 50%;
@@ -245,7 +245,7 @@ body {
     height: 8px;
     background-color: #c1c7d0;
   }
-  
+
   .pry-text {
     color: #344563;
     width: 295px;
@@ -257,7 +257,7 @@ body {
     line-height: 24px;
     margin-bottom: 12px;
   }
-  
+
   .tags {
     display: flex;
     align-items: center;
@@ -266,7 +266,7 @@ body {
     padding: 0;
     list-style-type: none;
   }
-  
+
   .tags-link {
     color: #6070ff;
     width: 29px;
@@ -286,21 +286,21 @@ body {
   .dv-tags {
     display: none;
   }
-  
+
   .css-tag {
     width: 21px;
   }
-  
+
   .js-tag {
     width: 65px;
   }
-  
+
   .action-btn {
     width: 295px;
     height: 72px;
     margin: 12px 0;
   }
-  
+
   .btn {
     border: 1px solid #6070ff;
     background-color: #fff;
@@ -311,7 +311,7 @@ body {
     padding: 12px;
     margin: 12px 0 12px 0;
   }
-  
+
   .btn-2 {
     border: 1px solid #6070ff;
     background-color: #fff;
@@ -321,20 +321,20 @@ body {
     border-radius: 8px;
     padding: 12px;
   }
-  
+
   .btn:hover,
   .btn-2:hover {
     background-color: #6070ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     color: white;
   }
-  
+
   .btn:focus,
   .btn-2:focus {
     background-color: #2230d2;
     color: #fff;
   }
-  
+
   .btn span {
     text-decoration: none;
     width: 100px;
@@ -346,14 +346,14 @@ body {
     text-align: center;
     line-height: 24px;
   }
-  
+
   .about-me-section {
     height: 1125.15px;
     border: 1px solid #dfe1e6;
     background-color: #fff;
     border-top-right-radius: 70px;
   }
-  
+
   .top {
     display: flex;
     flex-direction: column;
@@ -362,7 +362,7 @@ body {
     margin: 114px 24px 24px 24px;
     padding: 0;
   }
-  
+
   .primary-text-2 {
     font-family: 'Poppins', sans-serif;
     margin: 0 24px 12px 0;
@@ -373,7 +373,7 @@ body {
     width: 327px;
     height: 101px;
   }
-  
+
   .para-text-2 {
     margin: 0 24px 12px 0;
     font-family: 'Poppins', sans-serif;
@@ -389,7 +389,7 @@ body {
   .dv-para-text-2 {
     display: none;
   }
-  
+
   .let-us-connect-2 {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -399,7 +399,7 @@ body {
     width: 125px;
     height: 24px;
   }
-  
+
   .social-media-icons-2 {
     width: 200px;
     height: 40px;
@@ -408,14 +408,14 @@ body {
     align-items: center;
     list-style-type: none;
   }
-  
+
   .lists-fa {
     width: 40px;
     border-radius: 8px;
     padding: 8px;
     margin: 0;
   }
-  
+
   .lists-fa .fa-github,
   .lists-fa .fa-linkedin,
   .lists-fa .fa-angellist,
@@ -424,12 +424,12 @@ body {
     height: 20px;
     margin: 0 auto;
   }
-  
+
   .action-btn-2 {
     width: 295px;
     height: 72px;
   }
-  
+
   .btn-2 span {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -439,7 +439,7 @@ body {
     text-align: center;
     line-height: 24px;
   }
-  
+
   .skills {
     display: flex;
     flex-direction: column;
@@ -448,12 +448,12 @@ body {
     height: 464.15px;
     margin: 0 24px 113.85px 24px;
   }
-  
+
   .lang-frame {
     width: 327px;
     height: 320.15px;
   }
-  
+
   .lang-frame ul,
   .lang-frame-2 ul,
   .lang-frame-3 ul {
@@ -461,13 +461,13 @@ body {
     flex-direction: column;
     list-style-type: none;
   }
-  
+
   .lang-frame ul a,
   .lang-frame-2 ul a,
   .lang-frame-3 ul a {
     text-decoration: none;
   }
-  
+
   li .langs {
     display: inline-block;
     width: 237px;
@@ -480,17 +480,17 @@ body {
     color: #000;
     margin: 24px 26px 23px 12px;
   }
-  
+
   li .down-arrow {
     width: 12px;
     height: 6px;
   }
-  
+
   .lang-list {
     width: 327px;
     height: 248.15px;
   }
-  
+
   .lang-lists {
     display: flex;
     width: 303px;
@@ -499,11 +499,11 @@ body {
     margin: 12px;
     border-radius: 4px;
   }
-  
+
   .lang-lists img {
     margin: 9px 16px 9.72px 12px;
   }
-  
+
   .lang-name {
     width: 215px;
     height: 24px;
@@ -514,13 +514,13 @@ body {
     line-height: 20px;
     margin: 21px 12px 21.72px 0;
   }
-  
+
   .lang-frame-2,
   .lang-frame-3 {
     width: 327px;
     height: 72px;
   }
-  
+
   hr,
   .hr-line {
     background-color: #dfe1e6;
@@ -528,16 +528,16 @@ body {
     height: 1px;
     margin-bottom: 12px;
   }
-  
+
   .hr-line {
     visibility: visible;
   }
-  
+
   footer {
     background-color: #fff;
     width: 375px;
   }
-  
+
   .form-container {
     display: flex;
     flex-direction: column;
@@ -547,7 +547,7 @@ body {
     height: 779px;
     border-top-left-radius: 75px;
   }
-  
+
   .dv-form {
     display: none;
   }
@@ -560,7 +560,7 @@ body {
     width: 265px;
     height: 709.17px;
   }
-  
+
   .formheader {
     width: 375px;
     height: 56px;
@@ -574,7 +574,7 @@ body {
     margin-bottom: 0;
     text-align: center;
   }
-  
+
   .foot-text {
     width: 327px;
     height: 102px;
@@ -587,12 +587,12 @@ body {
     margin: 12px 24px 87px 24px;
     text-align: center;
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
   }
-  
+
   input {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -608,11 +608,11 @@ body {
     box-sizing: border-box;
     color: #172b4d;
   }
-  
+
   input[type=email] {
     margin: 0 24px 18px 24px;
   }
-  
+
   textarea {
     font-family: 'Poppins', sans-serif;
     width: 327px;
@@ -625,7 +625,7 @@ body {
     line-height: 24px;
     color: #b3bac5;
   }
-  
+
   button {
     width: 140px;
     height: 48px;
@@ -641,31 +641,29 @@ body {
     background-color: #fff;
     color: #6070ff;
   }
-  
+
   button:hover {
     background-color: #6070ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     color: #fff;
   }
-  
+
   button:focus {
     background-color: #2230d2;
     color: #fff;
   }
-  
+
   .shapes {
     width: 375px;
     height: 34px;
   }
-  
+
   .shapes img {
     width: 134px;
     height: 5px;
     margin: 21px 121px 8px 120px;
-  }
-  
+  } 
 }
-
 
 @media only screen and (min-width: 992px) {
   body {
@@ -783,6 +781,7 @@ body {
     height: 2694px;
     padding: 142px;
   }
+
   .work-card-1,
   .work-card-2,
   .work-card-3,
@@ -823,7 +822,6 @@ body {
     height: 448px;
     border-radius: 8px;
     margin-right: 24px;
-
   }
 
   .project-title,
@@ -898,14 +896,6 @@ body {
     width: 190px;
   }
 
-  .frame3 .text-5 {
-    width: 130px;
-  }
-
-  .frame4 .text-4 {
-    width: 43px;
-  }
-
   .text-1,
   .text-4 {
     height: 24px;
@@ -914,14 +904,6 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-  }
-
-  .count {
-    border-radius: 50%;
-    background-color: #c1c7d0;
-    width: 8px;
-    height: 8px;
-    margin: 12px 12px 12px 0;
   }
 
   .text-2,
@@ -937,6 +919,22 @@ body {
     height: 24px;
   }
 
+  .frame3 .text-5 {
+    width: 130px;
+  }
+
+  .frame4 .text-4 {
+    width: 43px;
+  }
+
+  .count {
+    border-radius: 50%;
+    background-color: #c1c7d0;
+    width: 8px;
+    height: 8px;
+    margin: 12px 12px 12px 0;
+  }
+
   .text-3,
   .text-6 {
     margin-right: 0;
@@ -947,15 +945,6 @@ body {
   .pry-text,
   .tags {
     display: none;
-  }
-
-  .project-title .dv-pry-text {
-    height: 50px;
-    margin: 24px 0;
-  }
-
-  .project-title-4 .dv-pry-text {
-    margin-bottom: 0;
   }
 
   .dv-pry-text {
@@ -970,14 +959,13 @@ body {
     margin-bottom: 24px;
   }
 
-  .project-title .dv-tags {
-    width: 203px;
+  .project-title .dv-pry-text {
+    height: 50px;
+    margin: 24px 0;
   }
 
-  .project-title-2 .dv-tags,
-  .project-title-3 .dv-tags,
-  .project-title-4 .dv-tags {
-    width: 365px;
+  .project-title-4 .dv-pry-text {
+    margin-bottom: 0;
   }
 
   .dv-tags {
@@ -987,6 +975,16 @@ body {
     width: 316px;
     height: 24px;
     margin-bottom: 40px;
+  }
+
+  .project-title .dv-tags {
+    width: 203px;
+  }
+
+  .project-title-2 .dv-tags,
+  .project-title-3 .dv-tags,
+  .project-title-4 .dv-tags {
+    width: 365px;
   }
 
   .tags-link {
@@ -1040,6 +1038,16 @@ body {
     font-size: 17px;
     line-height: 24px;
     color: #396df2;
+  }
+
+  .btn-2 span {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    line-height: 24px;
   }
 
   .project-title-3 .btn span {
@@ -1111,7 +1119,7 @@ body {
     padding: 8px;
     margin: 0;
   }
-  
+
   .lists-fa .fa-github,
   .lists-fa .fa-linkedin,
   .lists-fa .fa-angellist,
@@ -1136,28 +1144,18 @@ body {
     border-radius: 8px;
     padding: 12px;
   }
-  
+
   .btn:hover,
   .btn-2:hover {
     background-color: #6070ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     color: white;
   }
-  
+
   .btn:focus,
   .btn-2:focus {
     background-color: #2230d2;
     color: #fff;
-  }
-  
-  .btn-2 span {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    text-align: center;
-    line-height: 24px;
   }
 
   .dv-skills {
@@ -1169,10 +1167,6 @@ body {
 
   .dv-skills ul {
     list-style: none;
-  }
-
-  .lang-frame .dv-langs {
-    margin-bottom: 23px;
   }
 
   .dv-langs {
@@ -1188,10 +1182,15 @@ body {
     line-height: 24px;
   }
 
+  .lang-frame .dv-langs {
+    margin-bottom: 23px;
+  }
+
+
   .dv-down-arrow {
     width: 12px;
     height: 6px;
-    border: 2px solid #ACB7C3;
+    border: 2px solid #acb7c3;
   }
 
   .dv-hr {
@@ -1208,7 +1207,7 @@ body {
   .dv-lang-lists {
     width: 122px;
     height: 120px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
     margin: 0 12px;
     padding: 12px;
@@ -1252,7 +1251,7 @@ body {
     border-top-left-radius: 80px;
     padding: 79.09px 74px 48.21px 75.34px;
   }
-  
+
   .form-container {
     display: none;
   }
@@ -1307,7 +1306,7 @@ body {
   #dv-form-ctrl input {
     height: 48px;
     margin-bottom: 27px;
-    border: 1px solid #CFD8DC;
+    border: 1px solid #cfd8dc;
     border-radius: 2px;
     padding: 15px 38px 15px 16px;
     font-family: 'Poppins', sans-serif;
