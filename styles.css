@@ -662,7 +662,8 @@ body {
     width: 134px;
     height: 5px;
     margin: 21px 121px 8px 120px;
-  } 
+  }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -1185,7 +1186,6 @@ body {
   .lang-frame .dv-langs {
     margin-bottom: 23px;
   }
-
 
   .dv-down-arrow {
     width: 12px;
