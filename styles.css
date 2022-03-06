@@ -59,8 +59,8 @@ header {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  width: 327px;
-  height: 150px;
+  height: auto;
+  border: 2px solid red;
 }
 
 .dv-primary-text {
