@@ -38,6 +38,20 @@ header {
   margin: 62px 35px 36px 35px;
 }
 
+.close {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 51px;
+  right: 45px;
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  width: 12px;
+  height: 12px;
+}
+
 .main-section1 {
   background-image: url("/Images/header-shapes-mobile.svg");
   background-repeat: no-repeat;
