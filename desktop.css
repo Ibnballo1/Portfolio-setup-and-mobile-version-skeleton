@@ -12,6 +12,19 @@
     animation-timing-function: ease-in-out;
   }
 
+  .icon-menu {
+    display: none;
+  }
+
+  .vectors {
+    display: none;
+    cursor: none;
+    color: none;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+
   @keyframes rotation {
     from {
       transform: rotate(2deg);
@@ -28,12 +41,22 @@
     }
   }
 
-  nav img {
+  .close {
     display: none;
+    cursor: none;
+    top: 0;
+    right: 0;
+    margin: 0;
+    color: #fff;
+    font-weight: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
   }
-
+  
   .dv-nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     list-style: none;
     width: 259px;
@@ -47,8 +70,21 @@
     padding: 10px 12px;
   }
 
+  .js-nav-list {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    /*top: 25px;
+    left: 1156px;*/
+  }
+  
   .dv-ls-nav a {
     text-decoration: none;
+    color: #2638dc;
+  }
+
+  .blurring {
+    filter: none;
   }
 
   .main-section1 {
