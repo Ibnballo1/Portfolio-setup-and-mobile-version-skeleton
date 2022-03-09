@@ -3,6 +3,7 @@ let times = document.getElementById("close_menu");
 let hamburgerBtn = document.getElementById('menuBarImg');
 let closeBar = document.getElementById('close_bar');
 let lists = document.getElementById("menu_list");
+let hiddenScrol = document.getElementById('hideOverflow');
 let blurEffect = document.querySelectorAll('.toblur');
 let isDisplay = true;
 
@@ -12,6 +13,7 @@ menuBar.addEventListener('click', () => {
     times.style.display = 'block';
     closeBar.classList.add('icon-menu');
     lists.classList.add('js-nav-list');
+    hiddenScrol.classList.add('hide-scroll');
 
     for (let i= 0; i < blurEffect.length; i++) {
       blurEffect[i].classList.add('blurring');
@@ -24,6 +26,7 @@ menuBar.addEventListener('click', () => {
     times.style.display = 'none';
     closeBar.classList.replace('icon-menu', 'nav-menu');
     lists.classList.replace('js-nav-list', 'dv-nav');
+    hiddenScrol.classList.remove('hide-scroll');
 
     for (let i= 0; i < blurEffect.length; i++) {
       blurEffect[i].classList.remove('blurring');

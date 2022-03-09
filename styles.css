@@ -7,6 +7,10 @@ body {
   background: #e5e5e5;
 }
 
+.hide-scroll {
+  overflow-y: hidden;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -20,6 +24,7 @@ header {
   opacity: 0.8;
   width: 99.8%;
   height: 99.9%;
+  overflow-y: hidden;
 }
 
 .dv-nav {

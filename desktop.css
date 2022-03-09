@@ -1,4 +1,8 @@
 @media only screen and (min-width: 992px) {
+  .hide-scroll {
+    overflow-y: scroll;
+  }
+
   header {
     align-items: baseline;
     padding: 26px 142px 5px 155px;
