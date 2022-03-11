@@ -35,3 +35,34 @@ menuBar.addEventListener('click', () => {
     isDisplay = true;
   }
 });
+
+// Pop Version of the portfolio
+
+const data = [
+  {
+    title: 'Tonic',
+    description: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
+    linkImg: `./Images/Snapshoot-Portfolio-1.png`,
+    techs: ['Html', 'CSS', 'Javascript']
+  },
+  {
+    title: 'Multi-Post Stories',
+    description: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
+    linkImg: `./Images/Snapshoot-Portfolio-2.png`,
+    techs: ['Html', 'CSS', 'Javascript']
+  },
+  {
+    title: 'Tonic',
+    description: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
+    linkImg: `./Images/Snapshoot-Portfolio-3.png`,
+    techs: ['Html', 'CSS', 'Javascript']
+  },
+  {
+    title: 'Multi-Post Stories',
+    description: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
+    linkImg: `./Images/Snapshoot-Portfolio-4.png`,
+    techs: ['Html', 'CSS', 'Javascript']
+  }
+];
+
+
