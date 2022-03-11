@@ -101,9 +101,8 @@ data.forEach(works => {
   `;
 
   workSection.insertAdjacentHTML('beforeend', cardHTML);
-  console.log(imgUrl);
+  //console.log(imgUrl);
   document.querySelector(`.snapshot-portfolio-${counter + 1}`).style.backgroundImage = `url("${linkImg}")`;
   //Set background image dynamically
   counter += 1;
-  
 });
