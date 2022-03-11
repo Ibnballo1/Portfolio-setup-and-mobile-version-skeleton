@@ -186,7 +186,7 @@ header {
   height: 552px;
 }
 
-.snapshot-portfolio {
+.snapshot-portfolio-1 {
   background-image: url("Images/Snapshoot-Portfolio.png");
 }
 
@@ -202,7 +202,7 @@ header {
   background-image: url("Images/Snapshoot-Portfolio-4.png");
 }
 
-.snapshot-portfolio,
+.snapshot-portfolio-1,
 .snapshot-portfolio-2,
 .snapshot-portfolio-3,
 .snapshot-portfolio-4 {
