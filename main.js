@@ -106,3 +106,62 @@ data.forEach(works => {
   //Set background image dynamically
   counter += 1;
 });
+
+// Select Work Card Button for popup
+const popupButtons = document.querySelectorAll('.btn-work');
+popupButtons.forEach(popBtn => {
+  popBtn.addEventListener('click', () => {
+    const btnWorkIndex = popBtn.dataset.works;
+    const {title, description, techs, linkImg} = data[btnWorkIndex];
+    
+    let listOfTechs = '';
+    techs.forEach(tech => {
+    listOfTechs += `<li><a href="#" class="tags-link html-tag">${tech}</a></li>`;
+  });
+
+    const modalPopup = `
+    <div class="modal-content">
+          <h2 class="modal-title">${title}</h2>
+          <p id="close-modal" class="cls-btn">X</p>
+          <div class="frame dv-frame modal-year">
+            <p class=" mod-yr texts text-1">CANOPY</p>
+            <p class="count"></p>
+            <p class=" mod-yr texts text-2">Back End Dev</p>
+            <p class="count"></p>
+            <p class=" mod-yr texts text-3">2015</p>
+          </div>
+          <div class="modal-img">
+            <img src="${linkImg}" class="modal-img-1" alt="card-image-1" >
+          </div>
+          <p class="modal-text">
+            ${description}
+          </p>
+          <ul class="tags modal-tags">
+              ${listOfTechs}
+          </ul>
+          <div class="divider">
+            <hr />
+          </div>
+          <div class="modal-button">
+            <button id="live-btn" type="button" class="btn">
+              <span>See live <img src="./Images/btn-icon.svg" class="see-live-icon" alt="button live icon" /></span>
+            </button>
+            <button id="src-btn" type="button" class="btn">
+              <span>See Source <img src="./Images/btn-github.png" class="see-src-icon" alt="button github icon" /></span>
+            </button>
+          </div>
+        </div>
+    `;
+
+    const modalSection = document.querySelector('.modal');
+    modalSection.innerHTML = modalPopup;
+    modalSection.style.display = 'flex';
+
+    const popCloseButton = document.querySelector('.cls-btn');
+    popCloseButton.addEventListener('click', () => {
+      modalSection.style.display = 'none';
+      modalSection.innerHTML = '';
+    });*/
+  });
+
+});
