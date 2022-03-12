@@ -40,5 +40,6 @@ menuBar.addEventListener('click', () => {
 
 function ValidateEmail() {
   let mailPattern = /^([a-z0-9\._]+)@([a-z0-9]+).([a-z]+)?$/;
-  
+  let mailValue = document.getElementById('uemail').value; 
+  if(mailValue.match(mailPattern)) { alert("Valid email address!"); 
 }
