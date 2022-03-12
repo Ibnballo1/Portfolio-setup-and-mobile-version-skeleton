@@ -75,7 +75,7 @@ getDatas();
 const formField = {
   uname: userInput.value,
   uemail: mailInput.value,
-  message: msgInput.value
+  message: msgInput.value,
 };
 
 // set the inputs
