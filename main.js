@@ -35,3 +35,10 @@ menuBar.addEventListener('click', () => {
     isDisplay = true;
   }
 });
+
+// Validating form section
+
+function ValidateEmail() {
+  let mailPattern = /^([a-z0-9\._]+)@([a-z0-9]+).([a-z]+)?$/;
+  
+}
