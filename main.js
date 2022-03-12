@@ -46,12 +46,16 @@ const errorMessage = document.getElementById('errElement');
 form.addEventListener('submit', (e) => {
   let showMessage = [];
   if(mailValue.value.toLowerCase() !== mailValue.value){
-  showMessage.push('email send error.email must be in lower case');
+    errorMessage.style.display = 'inline-block';
+    showMessage.push(`
+    Error: Email should be in lowercase,
+    you entered ${mailValue.value}
+    `);
   } else{
-  form.submit();
+    form.submit();
   }
   e.preventDefault();
   errorMessage.innerText = showMessage;
-  });
+});
 
 
