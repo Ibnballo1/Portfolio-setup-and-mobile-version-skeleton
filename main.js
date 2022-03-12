@@ -20,8 +20,7 @@ menuBar.addEventListener('click', () => {
     }
 
     isDisplay = false;
-  }
-  else {
+  } else {
     hamburgerBtn.style.display = 'block';
     times.style.display = 'none';
     closeBar.classList.replace('icon-menu', 'nav-menu');
