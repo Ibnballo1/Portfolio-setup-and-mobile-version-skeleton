@@ -161,7 +161,7 @@ popupButtons.forEach(popBtn => {
     popCloseButton.addEventListener('click', () => {
       modalSection.style.display = 'none';
       modalSection.innerHTML = '';
-    });*/
+    });
   });
 
 });

@@ -92,7 +92,7 @@ header {
 }
 
 .main-section1 {
-  background-image: url("/Images/header-shapes-mobile.svg");
+  background-image: url("./Images/header-shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -610,7 +610,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('/Images/contact-form-shapes-mobile.svg');
+  background-image: url('./Images/contact-form-shapes-mobile.svg');
   background-repeat: no-repeat;
   background-position: center;
   height: 709.17px;
