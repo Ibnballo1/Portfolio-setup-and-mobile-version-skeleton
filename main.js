@@ -121,6 +121,8 @@ popupButtons.forEach((popBtn) => {
       listOfTechs += `<li><a href="#" class="tags-link html-tag">${tech}</a></li>`;
     });
 
+    const body = document.querySelector('body');
+    body.style.overflow = 'hidden';
     const modalPopup = `
     <div class="modal-content">
           <h2 class="modal-title">${title}</h2>
