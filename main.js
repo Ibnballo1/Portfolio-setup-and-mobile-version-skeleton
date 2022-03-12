@@ -39,7 +39,13 @@ menuBar.addEventListener('click', () => {
 // Validating form section
 
 function ValidateEmail() {
-  let mailPattern = /^([a-z0-9\._]+)@([a-z0-9]+).([a-z]+)?$/;
-  let mailValue = document.getElementById('uemail').value; 
-  if(mailValue.match(mailPattern)) { alert("Valid email address!"); 
+  let mailValue = document.getElementById('uemail').value;
+  let errorMessage = [];
+
+  if(mailValue.toLowerCase() != mailValue) { 
+    errorMessage.push('Enter a valid email address without uppercase');
+  }
+  else {
+    
+  }
 }
