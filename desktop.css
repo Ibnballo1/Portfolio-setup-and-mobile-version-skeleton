@@ -411,4 +411,78 @@
   .shapes {
     display: none;
   }
+
+  /* Desktop Modal Styles */
+
+.modal {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+
+.modal-content {
+  border-radius: 16px;
+  width: 80vw;
+  height: 95vh;
+  background-color: #fff;
+}
+
+.modal-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  line-height: 44px;
+  margin: 14px 0 0 14px;
+}
+
+.cls-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 6%;
+  right: 12%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.modal-year {
+ display: flex;
+ margin: 0 0 0 18px;
+}
+
+.mod-yr {
+  font-size: 12px;
+}
+
+.modal-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.modal-img-1 {
+  width: 70vw;
+  height: 60vh;
+}
+
+.modal-text-container {
+  display: flex;
+  margin: 12px;
+  padding: 0 5px 0 15px;
+}
+
+.modal-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justif
+
+
+}
 }
