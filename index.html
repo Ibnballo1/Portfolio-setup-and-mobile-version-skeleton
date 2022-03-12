@@ -318,7 +318,7 @@
             with it
           </p>
 
-          <form action="https://formspree.io/f/xrgjqpwb" method="post">
+          <form action="https://formspree.io/f/xrgjqpwb" id="form" method="post">
             <label for="uname" hidden></label>
             <input
               id="uname"
@@ -336,12 +336,14 @@
               placeholder="Your email"
               required
             />
+            <div id="errElement"></div>
             <textarea
               maxlength="500"
               placeholder="write your message here"
               required
             ></textarea>
             <button id="form-button" type="submit">Get In Touch</button>
+            
           </form>
         </div>
         <div class="shapes">

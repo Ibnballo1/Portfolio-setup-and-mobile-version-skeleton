@@ -38,14 +38,20 @@ menuBar.addEventListener('click', () => {
 
 // Validating form section
 
-function ValidateEmail() {
-  let mailValue = document.getElementById('uemail').value;
-  let errorMessage = [];
 
-  if(mailValue.toLowerCase() != mailValue) { 
-    errorMessage.push('Enter a valid email address without uppercase');
+const form = document.getElementById('form');
+const mailValue = document.getElementById('uemail');
+const errorMessage = document.getElementById('errElement');
+
+form.addEventListener('submit', (e) => {
+  let showMessage = [];
+  if(mailValue.value.toLowerCase() !== mailValue.value){
+  showMessage.push('email send error.email must be in lower case');
+  } else{
+  form.submit();
   }
-  else {
-    
-  }
-}
+  e.preventDefault();
+  errorMessage.innerText = showMessage;
+  });
+
+
