@@ -383,14 +383,6 @@ header {
   padding: 12px;
 }
 
-.desk-description {
-  display: none;
-}
-
-.deskt-techs {
-  display: none;
-}
-
 @media only screen and (max-width: 375px) {
   .btn-2 {
     border: 1px solid #6070ff;
@@ -671,19 +663,6 @@ input {
 
 input[type="email"] {
   margin: 0 24px 18px 24px;
-}
-
-#errElement {
-  display: none;
-  color: yellow;
-  margin: 0 auto;
-  padding: 6px;
-  border-radius: 4px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  letter-spacing: 2px;
 }
 
 textarea {

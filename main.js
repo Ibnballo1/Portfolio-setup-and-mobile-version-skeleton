@@ -40,15 +40,15 @@ menuBar.addEventListener('click', () => {
 const data = [
   {
     title: 'Tonic',
-    description: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
-    linkImg: `./Images/Snapshoot-Portfolio-1.png`,
-    techs: ['Html', 'CSS', 'Javascript']
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    linkImg: './Images/Snapshoot-Portfolio-1.png',
+    techs: ['Html', 'CSS', 'Javascript'],
   },
   {
     title: 'Multi-Post Stories',
-    description: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
-    linkImg: `./Images/Snapshoot-Portfolio-2.png`,
-    techs: ['Html', 'CSS', 'Javascript']
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    linkImg: './Images/Snapshoot-Portfolio-2.png',
+    techs: ['Html', 'CSS', 'Javascript'],
   },
   {
     title: 'Tonic',
@@ -58,21 +58,21 @@ const data = [
   },
   {
     title: 'Multi-Post Stories',
-    description: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
-    linkImg: `./Images/Snapshoot-Portfolio-4.png`,
-    techs: ['Html', 'CSS', 'Javascript']
-  }
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    linkImg: './Images/Snapshoot-Portfolio-4.png',
+    techs: ['Html', 'CSS', 'Javascript'],
+  },
 ];
 
 // Creating the worksection dynamically
-let workSection = document.querySelector('.work-section');
+const workSection = document.querySelector('.work-section');
 let counter = 0;
 
 data.forEach(works => {
-  const {title, description, linkImg, techs} = works;
+  const { title, description, linkImg, techs } = works;
 
   let listOfTechs = '';
-  techs.forEach(tech => {
+  techs.forEach((tech) => {
     listOfTechs += `<li><a href="#" class="tags-link html-tag">${tech}</a></li>`;
   });
 
@@ -100,23 +100,22 @@ data.forEach(works => {
   `;
 
   workSection.insertAdjacentHTML('beforeend', cardHTML);
-  //console.log(imgUrl);
   document.querySelector(`.snapshot-portfolio-${counter + 1}`).style.backgroundImage = `url("${linkImg}")`;
-  //Set background image dynamically
+  // Set background image dynamically
   counter += 1;
 });
 
 // Select Work Card Button for popup
 const popupButtons = document.querySelectorAll('.btn-work');
-popupButtons.forEach(popBtn => {
+popupButtons.forEach((popBtn) => {
   popBtn.addEventListener('click', () => {
     const btnWorkIndex = popBtn.dataset.works;
-    const {title, description, techs, linkImg} = data[btnWorkIndex];
-    
+    const { title, description, techs, linkImg } = data[btnWorkIndex];
+
     let listOfTechs = '';
-    techs.forEach(tech => {
+    techs.forEach((tech) => {
     listOfTechs += `<li><a href="#" class="tags-link html-tag">${tech}</a></li>`;
-  });
+    });
 
     const modalPopup = `
     <div class="modal-content">
@@ -166,5 +165,4 @@ popupButtons.forEach(popBtn => {
       modalSection.innerHTML = '';
     });
   });
-
 });
