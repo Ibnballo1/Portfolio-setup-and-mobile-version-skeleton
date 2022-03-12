@@ -306,10 +306,6 @@
     background-color: #c1c7d0;
   }
 
-  .work-card-2 .pry-text {
-    display: none;
-  }
-
   .dv-pry-text {
     display: block;
     color: #344563;
@@ -415,7 +411,7 @@
   /* Desktop Modal Styles */
 
 .modal {
-  display: flex;
+  display: none;
   justify-content: center;
   width: 100vw;
   height: 100vh;
@@ -477,12 +473,74 @@
 }
 
 .modal-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 22px;
-  text-align: justif
+  text-align: justify;
+  margin: auto 12px;
+  padding-bottom: 12px;
+}
 
+.modal-tags {
+  margin: auto 12px 14px 12px;
+}
 
+.all-tags {
+  font-size: 11px;
+  line-height: 10px;
+}
+
+.divider {
+  display: none;
+  margin: auto 0;
+}
+
+.modal-button {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 18px;
+}
+
+#live-btn,
+#src-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 42px;
+}
+
+#live-btn span,
+#src-btn span {
+  flex: none;
+  text-align: left;
+}
+
+.see-live-icon,
+.see-src-icon {
+  position: absolute;
+  left: 55%;
+}
+
+.see-src-icon {
+  left: 66%;
+}
+
+#src-btn {
+  justify-content: flex-start;
+  width: 148px;
+}
+
+/* for modal desktop description */
+
+.desk-description {
+  display: flex;
+  flex-direction: row;
+}
+
+.deskt-techs {
+  display: flex;
+  flex-direction: column;
 }
 }

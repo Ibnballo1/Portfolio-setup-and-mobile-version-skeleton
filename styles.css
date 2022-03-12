@@ -851,15 +851,3 @@ button:focus {
   justify-content: flex-start;
   width: 148px;
 }
-
-/* for modal desktop description */
-
-.desk-description {
-  display: flex;
-  flex-direction: row;
-}
-
-.deskt-techs {
-  display: flex;
-  flex-direction: column;
-}
