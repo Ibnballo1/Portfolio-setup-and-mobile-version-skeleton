@@ -750,6 +750,7 @@ button:focus {
   top: 6%;
   right: 12%;
   font-weight: normal;
+  font-size: 14px;
 }
 
 .modal-year {

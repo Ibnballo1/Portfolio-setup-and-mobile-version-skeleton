@@ -126,7 +126,7 @@ popupButtons.forEach((popBtn) => {
     const modalPopup = `
     <div class="modal-content">
           <h2 class="modal-title">${title}</h2>
-          <p id="close-modal" class="cls-btn">X</p>
+          <p id="close-modal" class="cls-btn">&times;</p>
           <div class="frame dv-frame modal-year">
             <p class=" mod-yr texts text-1">CANOPY</p>
             <p class="count"></p>
