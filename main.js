@@ -52,9 +52,9 @@ const data = [
   },
   {
     title: 'Tonic',
-    description: `A daily selection of privately personalized reads; no accounts or sign-ups required.`,
-    linkImg: `./Images/Snapshoot-Portfolio-3.png`,
-    techs: ['Html', 'CSS', 'Javascript']
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    linkImg: './Images/Snapshoot-Portfolio-3.png',
+    techs: ['Html', 'CSS', 'Javascript'],
   },
   {
     title: 'Multi-Post Stories',
@@ -68,8 +68,10 @@ const data = [
 const workSection = document.querySelector('.work-section');
 let counter = 0;
 
-data.forEach(works => {
-  const { title, description, linkImg, techs } = works;
+data.forEach((works) => {
+  const {
+    title, description, linkImg, techs
+  } = works;
 
   let listOfTechs = '';
   techs.forEach((tech) => {
@@ -110,11 +112,13 @@ const popupButtons = document.querySelectorAll('.btn-work');
 popupButtons.forEach((popBtn) => {
   popBtn.addEventListener('click', () => {
     const btnWorkIndex = popBtn.dataset.works;
-    const { title, description, techs, linkImg } = data[btnWorkIndex];
+    const {
+      title, description, techs, linkImg
+    } = data[btnWorkIndex];
 
     let listOfTechs = '';
     techs.forEach((tech) => {
-    listOfTechs += `<li><a href="#" class="tags-link html-tag">${tech}</a></li>`;
+      listOfTechs += `<li><a href="#" class="tags-link html-tag">${tech}</a></li>`;
     });
 
     const modalPopup = `

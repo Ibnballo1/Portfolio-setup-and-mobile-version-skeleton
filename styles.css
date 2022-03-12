@@ -762,19 +762,11 @@ button:focus {
 }
 
 .modal-img {
-  /*background-image: url('./Images/Snapshoot-Portfolio-4.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 6px;
 }
-
-/*.modal-img-1 {
-  height: 220px;
-}*/
 
 .modal-text {
   font-family: "Poppins", sans-serif;
