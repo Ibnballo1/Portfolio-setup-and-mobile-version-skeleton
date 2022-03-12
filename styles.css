@@ -673,6 +673,19 @@ input[type="email"] {
   margin: 0 24px 18px 24px;
 }
 
+#errElement {
+  display: none;
+  color: yellow;
+  margin: 0 auto;
+  padding: 6px;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
 textarea {
   font-family: "Poppins", sans-serif;
   width: 327px;

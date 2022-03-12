@@ -172,12 +172,12 @@
             with it
           </p>
 
-          <form action="https://formspree.io/f/xrgjqpwb" method="post">
+          <form action="https://formspree.io/f/xrgjqpwb" id="form" method="post">
             <label for="uname" hidden></label>
             <input
               id="uname"
               type="text"
-              name="user_name"
+              name="uname"
               maxlength="30"
               placeholder="Your name"
               required
@@ -186,16 +186,19 @@
             <input
             id="uemail"
               type="email"
-              name="mail"
+              name="uemail"
               placeholder="Your email"
               required
             />
             <textarea
               maxlength="500"
+              id="message"
+              name="message"
               placeholder="write your message here"
               required
             ></textarea>
-            <button type="submit">Get In Touch</button>
+            <div id="errElement"></div>
+            <button id="form-button" type="submit">Get In Touch</button>
           </form>
         </div>
       </div>
