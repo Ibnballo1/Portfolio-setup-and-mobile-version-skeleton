@@ -77,3 +77,21 @@ const formField = {
   uemail: mailInput.value,
   message: msgInput.value
 };
+
+// set the inputs
+function setInputs(formDetails) {
+  formField[formDetails.name] = formDetails.value;
+  localStorage.setItem('formField', JSON.stringify(formField));
+}
+
+userInput.addEventListener('input', () => {
+  setInputs(userInput);
+});
+
+mailInput.addEventListener('input', () => {
+  setInputs(mailInput);
+});
+
+msgInput.addEventListener('input', () => {
+  setInputs(msgInput);
+});
