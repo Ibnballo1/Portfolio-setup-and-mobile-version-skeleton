@@ -187,19 +187,19 @@ header {
 }
 
 .snapshot-portfolio-1 {
-  background-image: url("Images/Snapshoot-Portfolio.png");
+  background-image: url("./Images/Snapshoot-Portfolio-1.png");
 }
 
 .snapshot-portfolio-2 {
-  background-image: url("Images/Snapshoot-Portfolio-2.png");
+  background-image: url("./Images/Snapshoot-Portfolio-2.png");
 }
 
 .snapshot-portfolio-3 {
-  background-image: url("Images/Snapshoot-Portfolio-3.png");
+  background-image: url("./Images/Snapshoot-Portfolio-3.png");
 }
 
 .snapshot-portfolio-4 {
-  background-image: url("Images/Snapshoot-Portfolio-4.png");
+  background-image: url("./Images/Snapshoot-Portfolio-4.png");
 }
 
 .snapshot-portfolio-1,

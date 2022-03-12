@@ -159,7 +159,7 @@
     height: 450px;
   }
 
-  .snapshot-portfolio {
+  .snapshot-portfolio-1 {
     background-image: url("Images/PortoflioCard/dv-contact-bgimg.png");
     width: 50%;
     transition-property: width;
@@ -181,7 +181,7 @@
     order: 1;
   }
 
-  .snapshot-portfolio,
+  .snapshot-portfolio-1,
   .snapshot-portfolio-2,
   .snapshot-portfolio-3,
   .snapshot-portfolio-4 {
