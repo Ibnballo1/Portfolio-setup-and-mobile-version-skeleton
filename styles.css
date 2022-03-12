@@ -70,7 +70,7 @@ header {
   position: absolute;
   left: 0;
   list-style: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -383,6 +383,14 @@ header {
   padding: 12px;
 }
 
+.desk-description {
+  display: none;
+}
+
+.deskt-techs {
+  display: none;
+}
+
 @media only screen and (max-width: 375px) {
   .btn-2 {
     border: 1px solid #6070ff;
@@ -610,7 +618,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('./Images/contact-form-shapes-mobile.svg');
+  background-image: url("./Images/contact-form-shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 709.17px;
@@ -716,7 +724,6 @@ button:focus {
   margin: 21px 121px 8px 120px;
 }
 
-
 /* Modal Styles */
 .modal {
   display: none;
@@ -754,8 +761,8 @@ button:focus {
 }
 
 .modal-year {
- display: flex;
- margin: 0 0 0 18px;
+  display: flex;
+  margin: 0 0 0 18px;
 }
 
 .mod-yr {
@@ -778,7 +785,7 @@ button:focus {
 }*/
 
 .modal-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 22px;
@@ -809,7 +816,7 @@ button:focus {
   border: 1px solid #ebecf0;
 }
 
-.modal-button{
+.modal-button {
   display: flex;
   justify-content: space-evenly;
   margin-top: 18px;
@@ -845,3 +852,14 @@ button:focus {
   width: 148px;
 }
 
+/* for modal desktop description */
+
+.desk-description {
+  display: flex;
+  flex-direction: row;
+}
+
+.deskt-techs {
+  display: flex;
+  flex-direction: column;
+}
