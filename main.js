@@ -35,7 +35,6 @@ menuBar.addEventListener('click', () => {
   }
 });
 
-<<<<<<< HEAD
 // Pop Version of the portfolio
 
 const data = [
@@ -168,65 +167,4 @@ popupButtons.forEach(popBtn => {
     });
   });
 
-=======
-// Validating form section
-
-const form = document.getElementById('form');
-const mailInput = document.getElementById('uemail');
-const errorMessage = document.getElementById('errElement');
-
-form.addEventListener('submit', (e) => {
-  const showMessage = [];
-  if (mailInput.value.toLowerCase() !== mailInput.value) {
-    errorMessage.style.display = 'inline-block';
-    showMessage.push(`
-    Error: Email should be in lowercase,
-    you entered ${mailInput.value}
-    `);
-  } else {
-    form.submit();
-  }
-  e.preventDefault();
-  errorMessage.innerText = showMessage;
-});
-
-// Local Storage Session
-const userInput = document.getElementById('uname');
-const msgInput = document.getElementById('message');
-
-// Checking if data are in local storage and getting them
-function getDatas() {
-  if (localStorage.getItem('formField') !== null) {
-    const formInput = JSON.parse(localStorage.getItem('formField'));
-    userInput.value = formInput[userInput.name];
-    mailInput.value = formInput[mailInput.name];
-    msgInput.value = formInput[msgInput.name];
-  }
-}
-
-getDatas();
-
-const formField = {
-  uname: userInput.value,
-  uemail: mailInput.value,
-  message: msgInput.value,
-};
-
-// set the inputs
-function setInputs(formDetails) {
-  formField[formDetails.name] = formDetails.value;
-  localStorage.setItem('formField', JSON.stringify(formField));
-}
-
-userInput.addEventListener('input', () => {
-  setInputs(userInput);
-});
-
-mailInput.addEventListener('input', () => {
-  setInputs(mailInput);
-});
-
-msgInput.addEventListener('input', () => {
-  setInputs(msgInput);
->>>>>>> main
 });
