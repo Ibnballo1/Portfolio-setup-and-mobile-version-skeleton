@@ -665,6 +665,11 @@ input[type="email"] {
   margin: 0 24px 18px 24px;
 }
 
+#errElement {
+  color: red;
+  border: 2px solid red;
+}
+
 textarea {
   font-family: "Poppins", sans-serif;
   width: 327px;
