@@ -121,8 +121,6 @@ popupButtons.forEach((popBtn) => {
       listOfTechs += `<li><a href="#" class="tags-link html-tag">${tech}</a></li>`;
     });
 
-    const body = document.querySelector('body');
-    body.style.overflow = 'hidden';
     const modalPopup = `
     <div class="modal-content">
           <h2 class="modal-title">${title}</h2>
@@ -161,6 +159,9 @@ popupButtons.forEach((popBtn) => {
         </div>
     `;
 
+    const body = document.querySelector('body');
+    body.style.overflow = 'hidden';
+
     const modalSection = document.querySelector('.modal');
     modalSection.innerHTML = modalPopup;
     modalSection.style.display = 'flex';
@@ -169,6 +170,7 @@ popupButtons.forEach((popBtn) => {
     popCloseButton.addEventListener('click', () => {
       modalSection.style.display = 'none';
       modalSection.innerHTML = '';
+      body.style.overflow = 'scroll';
     });
   });
 });
