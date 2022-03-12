@@ -70,7 +70,7 @@ let counter = 0;
 
 data.forEach((works) => {
   const {
-    title, description, linkImg, techs
+    title, description, linkImg, techs,
   } = works;
 
   let listOfTechs = '';
@@ -113,7 +113,7 @@ popupButtons.forEach((popBtn) => {
   popBtn.addEventListener('click', () => {
     const btnWorkIndex = popBtn.dataset.works;
     const {
-      title, description, techs, linkImg
+      title, description, techs, linkImg,
     } = data[btnWorkIndex];
 
     let listOfTechs = '';
