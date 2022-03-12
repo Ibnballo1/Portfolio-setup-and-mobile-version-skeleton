@@ -667,10 +667,9 @@ input[type="email"] {
 
 #errElement {
   display: none;
-  color: #fff;
+  color: yellow;
   margin: 0 auto;
   padding: 6px;
-  border: 2px solid #f00;
   border-radius: 4px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
