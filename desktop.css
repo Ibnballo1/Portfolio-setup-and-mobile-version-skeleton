@@ -517,8 +517,7 @@
     text-align: left;
   }
 
-  .see-live-icon,
-  .see-src-icon {
+  .see-live-icon {
     position: absolute;
     left: 68%;
   }
@@ -542,5 +541,41 @@
   .deskt-techs {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .see-live-icon {
+    position: absolute;
+    left: 35%;
+  }
+
+  .see-src-icon {
+    position: fixed;
+    left: 73%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .see-live-icon,
+  .see-src-icon {
+    position: absolute;
+    left: 68%;
+  }
+
+  .see-src-icon {
+    left: 85%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .see-live-icon,
+  .see-src-icon {
+    position: absolute;
+    left: 60%;
+  }
+
+  .see-src-icon {
+    left: 72%;
   }
 }
